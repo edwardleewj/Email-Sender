@@ -15,4 +15,3 @@ with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
     smtp.send_message(email)
     print('all good hoss!!!!!')
 
-checking checking
